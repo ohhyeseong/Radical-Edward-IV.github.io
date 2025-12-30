@@ -2,7 +2,9 @@
   "permissions": {
     "allow": [
       "Bash(python3 analyze_images.py)",
-      "WebFetch(domain:opentutorials.org)"
+      "WebFetch(domain:opentutorials.org)",
+      "Bash(ls:*)",
+      "Bash(cat:*)"
     ],
     "deny": [],
     "ask": []
